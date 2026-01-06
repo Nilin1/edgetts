@@ -1,9 +1,9 @@
 package edgetts
 
 import (
+	"edgetts/internal/businessConsts"
 	"encoding/json"
 	"fmt"
-	"github.com/lib-x/edgetts/internal/businessConsts"
 	"net/http"
 	"sync"
 )

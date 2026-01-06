@@ -2,8 +2,8 @@ package communicate
 
 import (
 	"crypto/sha256"
+	"edgetts/internal/businessConsts"
 	"fmt"
-	"github.com/lib-x/edgetts/internal/businessConsts"
 	"time"
 )
 

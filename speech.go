@@ -1,10 +1,10 @@
 package edgetts
 
 import (
+	"edgetts/internal/communicate"
+	"edgetts/internal/communicateOption"
+	"edgetts/internal/ttsTask"
 	"errors"
-	"github.com/lib-x/edgetts/internal/communicate"
-	"github.com/lib-x/edgetts/internal/communicateOption"
-	"github.com/lib-x/edgetts/internal/ttsTask"
 	"io"
 	"sync"
 )

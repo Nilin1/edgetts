@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lib-x/edgetts/internal/businessConsts"
+	"edgetts/internal/businessConsts"
 )
 
 type CommunicateOption struct {

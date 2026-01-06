@@ -4,7 +4,7 @@ import (
 	"errors"
 	"regexp"
 
-	"github.com/lib-x/edgetts/internal/communicateOption"
+	"edgetts/internal/communicateOption"
 )
 
 var (

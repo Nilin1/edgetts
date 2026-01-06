@@ -3,14 +3,16 @@ package communicate
 import (
 	"context"
 	"fmt"
-	"github.com/gorilla/websocket"
-	"github.com/lib-x/edgetts/internal/businessConsts"
-	"github.com/lib-x/edgetts/internal/communicateOption"
-	"github.com/lib-x/edgetts/internal/validate"
 	"io"
 	"log"
 	"net/http"
 	"sync"
+
+	"edgetts/internal/businessConsts"
+	"edgetts/internal/communicateOption"
+	"edgetts/internal/validate"
+
+	"github.com/gorilla/websocket"
 )
 
 const (

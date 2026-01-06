@@ -1,7 +1,7 @@
 package ttsTask
 
 import (
-	"github.com/lib-x/edgetts/internal/communicate"
+	"edgetts/internal/communicate"
 	"io"
 	"log"
 	"sync"
